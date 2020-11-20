@@ -1,0 +1,81 @@
+.btn_buy{
+    position: relative;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font: bold 16px PT Sans;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #0c7aa6;
+    border-radius: 3px;
+    background: url("/data/img/btn-bg.png") repeat-x;
+    border: none;
+    margin: 20px 0 0 0;
+}
+.btn_buy:hover{
+    background: url("/data/img/btn-bg-hover.png") repeat-x;
+    cursor: pointer;
+}
+.btn_buy:active{
+    background: transparent url("/data/img/btn_buy-active.png");
+}
+.btn_buy:disabled{
+    background: url("/data/img/btn-bg-disabled.png") repeat-x;
+    color: #cecece;
+    text-shadow: 0 1px 0 #476e7e;
+}
+.btn{
+    width: 210px;
+    height: 40px;
+    text-align: center;
+    font: bold 16px PT Sans;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #0c7aa6;
+    border-radius: 3px;
+    background: url("/data/img/btn-bg.png") repeat-x;
+    border: none;
+}
+.btn:hover{
+    background: url("/data/img/btn-bg-hover.png") repeat-x;
+    cursor: pointer;
+}
+.btn:active{
+    background: transparent url("/data/img/btn-active.png");
+}
+.btn:disabled{
+    background: url("/data/img/btn-bg-disabled.png") repeat-x;
+    color: #cecece;
+    text-shadow: 0 1px 0 #476e7e;
+}
+.discounts-div thead td:first-child{
+    width: 60px;
+    font: 14px Trebuchet MS;
+    text-align: left;
+    display: block;
+    padding: 0 0 0 18px;
+}
+.discounts-div tbody td:first-child{
+    width: 60px;
+    font: 14px Trebuchet MS;
+    text-align: left;
+    padding: 0 0 0 18px;
+}
+.discounts-div thead td:last-child {
+    width: 50px;
+    font: 14px Trebuchet MS;
+    text-align: left;
+    padding: 0 30px 0 10px;
+}
+.discounts-div thead {
+    display: block;
+    width: 244px;
+    vertical-align: middle;
+    background: #d1d1d1;
+    padding: 0 0;
+}
+
+table.dataTable tbody{
+    background: rgba(0,0,0,0.7);
+}
+table.dataTable thead{
+    background: #002f48;
+}

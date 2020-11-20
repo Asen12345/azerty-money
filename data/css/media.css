@@ -1,0 +1,1222 @@
+@media (max-width: 1650px) {
+  .container {
+    max-width: 1200px;
+  }
+  .header__menu {
+    width: 55%;
+    margin: 0;
+  }
+  .offer__card {
+    padding: 22px 50px 15px;
+  }
+  .offer__text {
+    width: 90%;
+  }
+  .offer__img {
+    width: 70px;
+  }
+  .games__card {
+    margin-bottom: 15px;
+  }
+  .news__item {
+    min-height: 400px;
+  } 
+  .footer__logo {
+    width: 200px;
+  }
+  .footer__menu {
+    width: auto;
+  }
+  .footer__btn {
+    width: 220px;
+    padding: 15px 30px;
+  }
+  .warranty__item {
+    margin: 0 1%;
+    margin-bottom: 30px;
+  }
+  #data__server, #data__server option, .data__side_cur {
+    width: 385px;
+  }
+  .data__input_cur {
+    max-width: 115px;
+  }
+  .data__input_nic {
+    width: 280px;
+  }
+  .data__side_text, .data__side_text .data__input {
+    width: 260px;
+  }
+  .data__side .discount__row {
+    width: 300px;
+  }
+  .data__textarea {
+    width: 80%;
+  }
+  .payment-check__img {
+    top: 20%;
+  }
+  .skillup-account__inputs .skillup__input {
+    width: 290px;
+  }
+  .skillup__item {
+    width: 31%;
+    margin-bottom: 30px;
+  }
+  .skillup__wrap::after {
+    display: none;
+  }
+  .skillup .skillup__item:last-child {
+    margin-left: 0px;
+  }
+  .product__img {
+    height: 305px;
+    margin-right: 0;
+  }
+  .reviews__please {
+    width: 580px;
+    top: 560px;
+  }
+  .reviews__btn {
+    margin-left: 42%;
+  }
+  .slick-next {
+    bottom: -27px;
+  }
+  .slick-prev {
+    top: 0;
+  }
+  
+}
+
+@media (max-width: 1366px) {
+  input.header__input::placeholder {
+    font-size: 15px;
+  }
+  #ma_fo{
+    flex: 0.5 !important;
+  }
+  #rov{
+    width: 100%;
+  }
+  .container {
+    max-width: 960px;
+  }
+  .header__hamburger {
+    display: block;
+  }
+  .chat {
+    height: 400px;
+    width: 300px;
+  }
+  .chat__admin-img {
+    width: 50px;
+  }
+  .chat__messages {
+    padding: 5px 10px;
+  }
+  .message {
+    font-size: 12px;
+    line-height: 1.35em;
+    margin-bottom: 15px;
+  }
+  .new-message {
+    margin-top: 25px;
+  }
+  .message__area {
+    height: 56px;
+    font-size: 14px;
+  }
+  .message__btn {
+    right: 17px;
+    bottom: 21px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header-nav {
+    padding-bottom: 15px;
+  }
+  .header__input {
+    flex: 0.4;
+    margin-left: auto;
+    margin-right: 45px;
+  }
+  .header__offer {
+    flex-direction: column;
+  }
+  .offer__part {
+    width: 100%;
+  }
+  .offer__card {
+    padding: 22px 30px 15px;
+    min-height: 220px;
+  }
+  .offer__text {
+    margin-bottom: 25px;
+  }
+  .offer__btn {
+    margin-bottom: 70px;
+  }
+  h1 {
+    margin-top: 45px;
+    font-size: 40px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+  };
+  h1 span {
+    font-size: 28px;
+  }
+  .header__mouse {
+    display: none;
+  }
+  .header__input {
+    flex: 0.5
+  }
+  .games__card {
+    width: 33%;
+  }
+  .comments__item {
+    width: 95%;
+  }
+  .slick-prev,.slick-next {
+    display: none !important;
+  }
+  .error__text {
+    font-size: 32px;
+  }
+  .error__img {
+    width: 350px;
+  }
+  .game__wrap {
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  .game__wrap .games__card {
+    margin-right: 0;
+    width: 32%;
+  }
+  .option__wrap .games__card:last-child {
+    margin-left: 0;
+  }
+  .option__wrap:after {
+    display: none;
+  }
+  .payment__wrap {
+    flex-direction: column;
+  }
+  .payment__desk {
+    width: 100%;
+  }
+  .payment__data {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+  }
+  #data__server, #data__server option, #data__server, #data__server option, .data__side_cur {
+    width: 510px;
+  }
+  .data__side .discount__row, .data__input_nic {
+    width: 374px;
+  }
+  .data__side_text, .data__side_text .data__input {
+    width: 350px;
+  }
+  .data__textarea {
+    width: 80%;
+  }
+  .payment__types {
+    justify-content: flex-start;
+  }
+  .payment__item {
+    width: 23%;
+  }
+  .payment-check__img {
+    width: 67%;
+    opacity: 0.4;
+  }
+  .skillup-account__inputs .skillup__input {
+    width: 200px;
+    margin-right: 30px;
+  }
+  .skillup__item {
+    width: 32%;
+    height: 248px;
+  }
+  .skillup__price {
+    font-size: 25px;
+    margin-right: 3px;
+  }
+  .skillup__head {
+    padding: 0 8px;
+  }
+  .skillup__btn {
+    padding: 8px 40px;
+  }
+  .skillup .skillup__item:last-child {
+    margin-left: 0;
+  }
+  .slick-dots {
+    display: none !important;
+  }
+  .product__img {
+    height: 340px;
+  }
+  .product__wrap {
+    flex-direction: column;
+  }
+  .product__offer {
+    width: 90%;
+    margin: auto;
+  }
+  .product__slider {
+    width: 100%;
+  }
+  .product__previews {
+    display: none;
+  }
+  .product__img {
+    height: auto;
+    margin: auto;
+  }
+  .modal__payment {
+    max-width: 600px;
+    height: 400px;
+    padding: 45px;
+  }
+  .modal__payment_title {
+    font-size: 40px;
+  }
+  .modal__payment_text {
+    font-size: 22px;
+  }
+  .modal__panda {
+    width: 80%;
+    bottom: -29px;
+    left: 10%;
+  }
+  .reviews__please {
+    width: 450px;
+  }
+  .reviews-form {
+    padding-bottom: 60px;
+  }
+  .reviews__btn {
+    margin-left: 38%;
+  }
+  .discount__info:hover::after {
+    width: 360px;
+    right: auto;
+    border-radius: 12px 12px 12px 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .search__logo{
+    display: none;
+  }
+  .kott{
+    display: block;
+  }
+  .bar__btn {
+    display: none;
+  }
+  .container {
+    max-width: 750px;
+  }
+  .header__search {
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  .header__input {
+    display: none;
+  }
+  .header__offer {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 50px;
+  };
+  h1 span {
+    font-size: 35px;
+  }
+  .games__card {
+    width: 50%;
+  }
+  .news__btn {
+    margin-top: 15px;
+  }
+  .news__item {
+    width: 98%;
+  }
+  .news__img {
+    width: 165px;
+  }
+  .offer__part {
+    width: 100%;
+  }
+  .offer__btn {
+    margin-bottom: 60px;
+  }
+  .offer__card {
+    min-height: 235px;
+  }
+  .footer:before {
+    display: none;
+  }
+  .footer__logo {
+    margin-left: 0;
+  }
+  .footer__wrap {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+  }
+  .footer__call {
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .discount__time {
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  .form__alert {
+    display: none;
+  }
+  .form__btn {
+    margin-left: auto;
+  }
+  .brown-input {
+    margin-bottom: 20px;
+  }
+  .contacts {
+    background: none;
+  }
+  .contacts__wrap {
+    flex-direction: column;
+  }
+  .contacts-side {
+    width: 90%;
+  }
+  .contacts__name {
+    height: auto;
+    margin-top: 50px;
+  }
+  .login__wrapper {
+    flex-direction: column;
+  }
+  .login__side {
+    margin-bottom: 50px;
+  }
+  .nav__icon {
+    display: block;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .admin-tabs .nav-link {
+    padding: initial;
+  }
+  .admin-tabs {
+    width: 100%;
+  }
+  .admin {
+    background: none;
+    padding-top: 90px;
+  }
+  .game__wrap .card__overlay {
+    padding: 0 10px;
+  }
+  .payment__item {
+    width: 31%;
+  }
+  .data__side_text, .data__side_text .data__input {
+    width: 260px;
+  }
+  .payment-check__img {
+    width: 90%;
+    opacity: 0.15;
+    right: -60px;
+    top: 18%;
+  }
+  .skillup-account__inputs .skillup__input {
+    width: 123px;
+  }
+  .skillup__item {
+    width: 48%;
+  }
+  .skillup-account__sort {
+    justify-content: space-between;
+    width: 50%;
+  }
+  .skillup__search {
+    width: 230px;
+  }
+  .product__img {
+    width: 100%;
+  }
+  .modal-input {
+    width: 100%;
+  }
+  .modal__title {
+    font-size: 22px;
+  }
+  .contacts-form__btn {
+    margin-left: 0;
+  }
+  .product__contacts {
+    flex-direction: column;
+  }
+  .payment__contacts {
+    padding-bottom: 70px;
+  }
+  .info_short {
+    display: none;
+  }
+  .product__footer {
+    flex-wrap: wrap;
+  }
+  .product__more {
+    order: 0;
+    margin-bottom: 50px;
+    margin-right: 40%;
+  }
+  .product__btn {
+    order: 1;
+    flex: 0.4;
+  }
+  .product__icons {
+    order: 2;
+  }
+  .reviews__please {
+    top: 630px;
+    width: 343px;
+  }
+
+}
+@media (max-width: 768px) {
+  #ma_fo{
+    display: none !important;
+  }
+
+  #sort-category {
+    padding: 10px 15px;
+}
+  .skillup__sort {
+    margin-left: auto;
+}
+
+  .skillup-account__inputs {
+    justify-content: space-between;
+}
+
+
+
+  .skillup-account__inputs .skillup__input {
+    margin-right: 0;
+}
+
+
+
+.skillup-account__inputs .skillup__input {
+  padding: 0 15px;
+  height: 40px;
+}
+
+
+
+.skillup-account__inputs .skillup__input {
+  width: 200px;
+}
+
+
+
+
+  .container {
+    max-width: 560px;
+  }
+  .footer__wrap {
+    justify-content: center;
+  }
+  .footer__call {
+    margin-top: 50px;
+  }
+  .discount__img {
+    display: none;
+  }
+  .footer__discount {
+    margin-top: 40px;
+  }
+  .brown-form {
+    padding: 25px 15px;
+  }
+  .error__body {
+    margin-top: 80px;
+  }
+  .admin__form {
+    flex-direction: column;
+  }
+  .admin__form_side {
+    width: 100%;
+  }
+  .admin__form label {
+      margin-bottom: 0;
+      margin-top: 10px;
+  }
+  .admin-tabs {
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+  .money__box, .materials__img {
+    width: 100%;
+  }
+  .order__item {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .order__item:last-child:before {
+    display: none;
+  }
+  .order__item:last-child .order__title {
+    margin-bottom: 11px;
+  }
+  .order__item:first-child .order__game {
+    text-align: right;
+  }
+  .orders__addition {
+    flex-direction: column;
+  }
+  .addition__side {
+    width: 100%;
+  }
+  .order__link {
+    display: none;
+  }
+  .game__wrap .games__card {
+    width: 48%;
+  }
+  .payment__item {
+    width: 46%;
+  }
+  .payment__item {
+    padding: 8px 11px;
+  }
+  #data__server, #data__server option, #data__server, #data__server option, .data__side_cur {
+    width: 330px;
+  } 
+  .data__side .discount__row, .data__input_nic {
+    width: 225px;
+  }
+  .data__side_text, .data__side_text .data__input {
+    width: 240px;
+  }
+  .data__textarea {
+    width: 80%;
+  }
+  .reviews__img {
+    margin-right: 30px;
+  } 
+  .reviews__admin {
+    margin-top: 25px;
+  }
+  .reviews__admin-name {
+    margin-bottom: 25px;
+  }
+  .payment-check__row:after {
+    width: 55%;
+    left: 0;
+  }
+  .payment-check__row {
+    width: 90%;
+  }
+  .catalog-wrap {
+    min-height: 370px;
+  }
+  .skillup__name {
+    font-size: 12px;
+  }
+  .skillup__btn {
+    padding: 8px 25px;
+    box-shadow: none;
+  }
+  .skillup__img {
+    margin-right: 5px;
+  }
+  .skillup__item {
+    height: 215px;
+  }
+  .skillup-account__inputs .skillup__input {
+    width: 200px;
+  }
+  .skillup__bottom {
+    padding: 10px
+  }
+  .skillup__price {
+    font-size: 20px;
+  }
+  .skillup__search-text, .sort__text_sort {
+    display: none;
+  }
+  #sort-category {
+    padding: 10px 15px;
+  }
+  .skillup__sort {
+    margin-left: auto;
+  }
+  .skillup__sort_search {
+    margin-top: -100px;
+    width: 55%;
+    margin-left: 10px;
+  }
+  .skillup__input, .skillup__search {
+    padding: 12px
+  }
+  .skillup__inputs_wrap {
+    flex-direction: column;
+  }
+  .skillup__inputs_wrap {
+    flex-direction: inherit;
+}
+
+  .skillup-account__inputs .skillup__input {
+    padding: 0 15px;
+    height: 40px;
+  }
+  .sort__text {
+    margin-bottom: 20px;
+  }
+  .skillup-account__inputs {
+    justify-content: space-between;
+  }
+  .skillup-account__inputs .skillup__input {
+    margin-right: 0;
+  }
+  .skillup-account__sort {
+    width: 48%;
+  }
+  .modal__btn {
+    width: 180px;
+    font-size: 14px;
+    padding: 9px;
+  }
+  .modal__form {
+    width: 50%;
+    font-size: 14px;
+  }
+  .modal__panda {
+    width: 90%;
+    left: 5%;
+  }
+  .reviews__please {
+    display: none;
+  }
+  .reviews-input {
+    width: 100%;
+  }
+  .reviews__btn {
+    margin-left: auto;
+  }
+
+}
+@media (max-width: 578px) {
+  #sort-category {
+    margin-top: -12px;
+    margin-left: 10px;
+    padding: 8px 13px;
+}
+  #sort-category {
+    margin-top: 10px;
+}
+  .skillup__sort {
+    width: 48%;
+    margin-bottom: 25px;
+}
+
+  .skillup-account__sort {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+
+  input::placeholder, textarea::placeholder {
+    font-size: 12px;
+  }
+  .header__hamburger {
+    width: 34px;
+    height: 34px;
+    padding: 10px 8px;
+    margin-bottom: 38px;
+  }
+  .hamburger__line {
+    width: 18px;
+  }
+  .hamburger__line:nth-child(2) {
+    width: 11px;
+    margin: 4px 0;
+  }
+  .menu {
+    width: 217px;
+  }
+  .brown-input {
+    padding: 10px
+  }
+  .container {
+    max-width: 90%;
+  }
+  .body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 27px;
+  }
+  h1 span {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  .name-of {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .header-nav {
+    padding-top: 20px;
+  }
+  .header__admin {
+    width: 32px;
+    height: 32px;
+  }
+  .admin__logo {
+    width: 20px;
+  }
+  .offer__text {
+    font-size: 12px;
+  }
+  .btn {
+    padding: 7px 22px;
+    font-size: 14px;
+  }
+  .secondary__btn {
+    padding: 13px 43px;    
+  }
+  .offer__cards {
+      display: none;
+  }
+  .games {
+    padding-top: 0;
+  }
+  .comments__img {
+    width: 90px;
+    height: 90px;
+  }
+  .comments__date {
+    font-size: 12px;
+  }
+  .comments__person {
+    line-height: 1.2em;;
+  }
+  .news__img {
+    display: none !important;
+  }
+  .news__item {
+    padding: 15px;
+  }
+  .news__btn {
+    width: 175px;
+  }
+  .about__text {
+    padding: 50px 10px
+  }
+  .footer__wrap {
+    flex-direction: column;
+  }
+  .footer__discounts {
+    display: none;
+  }
+  .footer__menu {
+    display: block;
+    text-align: center;
+    padding: 0;
+    order: 3
+  }
+  .footer__call {
+    order: 2;
+  }
+  .discount__time {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .footer__credits {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+  }
+  .warranty__item {
+    width: 265px;
+  }
+  .pros__img {
+    margin: 25px 0 10px;
+  }
+  .form__btn, .login__btn {
+    margin: auto;
+    display: block;
+  }
+  .form__footer::before {
+    display: none;
+  }
+  .contacts-side {
+    width: 100%;
+  }
+  .contacts__socials {
+    padding: 13px 15px 25px;
+    font-size: 14px;
+  }
+  .error__img {
+    width: 200px;
+  }
+  .error__text {
+    font-size: 20px;
+  }
+  .login-input {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .login__forgot {
+    font-size: 14px;
+  }
+  .nav__icon {
+    width: 40px;
+  }
+  .admin-tabs .nav-link {
+    font-size: 0 !important;
+  }
+  .admin-tabs {
+    margin-bottom: 10px;
+  }
+  .admin__alert {
+    display: none;
+  }
+  .order__item:before {
+    bottom: 21px;
+    top: auto;
+  }
+  .addition__side {
+    font-size: 10px;
+  }
+  .status__name {
+    font-size: 14px;
+  }
+  .status__info {
+    font-size: 19px;
+    margin-top: 8px;
+  }
+  .status__arrow {
+    width: 30px;
+  }
+  .materials__input {
+    width: 90%;
+    font-size: 13px;
+  }
+  .docs__text {
+    padding: 20px 15px;
+  }
+  .money__row {
+    flex-direction: column;
+  }
+  .money__name {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .game__img {
+    width: 71px;
+  }
+  .game__wrap {
+    justify-content: space-around;
+  }
+  .game__wrap .games__card {
+    height: 88px;
+    padding-bottom: 30px;
+    width: 140px;
+    margin: 10px 2px;
+  }
+  .game__wrap .card__overlay {
+    bottom: 12px;
+    height: 18px;
+    font-size: 12px;
+  }
+  .option__wrap .card__overlay {
+    bottom: 0;
+    height: 30px;
+    font-size: 8px;
+    line-height: 1.2;
+  }
+  .option__wrap .game__img {
+    width: 42px;
+  }
+  .payment__data {
+    margin-top: 10px;
+  }
+  .payment__desk {
+    display: none;
+  }
+  .payment__item {
+    width: 100%;
+    padding: 5px 10px;
+  }
+  .data__row {
+    margin-bottom: 20px;
+    flex-direction: column;
+    position: relative;
+  }
+  .addition-sm {
+    font-family: 'Montserrat-Bold',serif;
+    position: absolute;
+    top: 5px;
+    left: 55%;
+  }
+  .currency {
+    font-family: 'Montserrat-Bold',serif;
+    position: absolute;
+    right: 15px;
+    bottom: 54px;
+  }
+
+  #data__server, #data__server option, #data__server, #data__server option, .data__side_cur {
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .reviews__img {
+    width: 80px;
+  }
+  .reviews__date {
+    text-align: left;
+    margin-left: 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .reviews__text {
+    margin-left: -110px;
+    margin-top: 24px;
+  }
+  .reviews__admin-img {
+    display: none;
+  }
+  .faq__type {
+    padding: 15px 20px;
+  }
+  .faq__questions {
+    background: #353535;
+    padding: 17px 20px 0;
+  }
+
+  .reviews__head {
+    flex-direction: column;
+  }
+  .reviews__name {
+    margin-bottom: 10px;
+  }
+  .reviews__admin {
+    margin-left: -110px;
+  }
+  .reviews__admin-text {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  .data__input_nic {
+    padding: 10px 14px;
+    width: 100%;
+  }
+  #data__server {
+    width: 100%;  
+  }
+  .data__side_cur {
+    width: 100%;
+    padding: 0;
+  }
+  .data__input_cur {
+    max-width: fit-content;
+    width: 45%;
+  }
+  .data__text_yellow {
+    font-size: 14px;
+  }
+  .data__name {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .data__side_text, .data__side_text .data__input {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .total__text {
+    font-size: 18px;
+  }
+  .chechbox .data__text {
+    font-size: 12px;
+  }
+  .data__side .discount__row, .data__input_nic {
+    width: 100%;
+  }
+  .reviews__date, .review__name {
+    width: 100%;
+  }
+  .payment-check__row {
+    font-size: 12px;
+    padding-left: 15px;
+  }
+  .payment-check__btn {
+    padding: 14px 67px;
+  }
+  .payment-check__img {
+    top: 13%;
+    left: 25px;
+  }
+  .payment-check__wrap {
+    padding-bottom: 40px;
+  }
+  .sort__text {
+    display: none;
+  }
+  .skillup__sort {
+    width: 48%;
+    margin-bottom: 25px;
+  }
+  .skillup__input {
+    width: 100%;
+    font-size: 12px;
+    padding: 8px 13px;
+  }
+  #sort-category {
+    margin-top: -12px;
+    margin-left: 10px;
+    padding: 8px 13px;
+  }
+  .skillup__wrap {
+    margin-left: 0;
+  }
+  .skillup__name, .skillup__cur {
+    font-size: 6px;
+    margin: 0;
+    line-height: 1.2em;
+  }
+  .skillup__price {
+    font-size: 8px;
+  }
+  .skillup__head {
+    height: 20px;
+  }
+  .skillup__img {
+    width: 11px;
+  }
+  .skillup__btn {
+    padding: 3px 12px;
+    font-size: 8px;
+  }
+  .skillup__bg {
+    top: 20px;
+  }
+  .skillup__bottom {
+    padding: 2px 8px;
+  }
+  .skillup__item {
+    height: 105px;
+    margin-bottom: 12px;
+  }
+  .skillup-account__sort {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .skillup-account__inputs .sort__text {
+    display: block;
+    font-size: 12px;
+  }
+  .skillup__sort_search {
+    margin-top: 0;
+  }
+  .skillup__search {
+    margin-top: -60px;
+    padding: 8px;
+    width: 100%;
+  }
+  .kot{
+    margin-top: 0px;
+  }
+  #sort-category {
+    margin-top: 10px;
+  }
+  .product__price {
+    font-size: 30px;
+  }
+  .product__more {
+    padding: 12px 7px;
+    margin-right: 0;
+    width: 80%;
+    font-size: 10px;
+  }
+  .nav-link, .active {
+    font-size: 16px !important;
+  }
+  
+  .main-modal {
+    overflow-y: scroll;
+    padding: 20px;
+    padding-bottom: 60px;
+  }
+  .modal-body {
+    flex-direction: column;
+  }
+  .modal__btn {
+    width: 100%;
+  }
+  .title_second {
+    display: none;
+  }
+  .title_small {
+    display: block;
+  }
+  .contacts_text {
+    font-size: 14px;
+    width: 90%;  
+  }
+  .contacts {
+    padding-top: 30px;
+  }
+  .modal__title {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .main-modal__close {
+    top: 15px;
+    width: 20px;
+    height: 20px;
+  }
+  .modal__payment {
+    padding: 15px;
+    height: 200px;
+  }
+  .modal__payment_title {
+    font-size: 18px; 
+  }
+  .modal__payment_text {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .modal__payment_close {
+    display: none;
+  }
+  .modal__panda {
+    bottom: -16px;
+  }
+}

@@ -1,0 +1,151 @@
+*{
+margin:0;
+padding:0;
+}
+.zagshapka {
+    background-image: url("../img/zagshapka.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 0 0 80px;
+}
+.blueline {
+    background-color: #0063d5;
+    border-radius: 4px;
+    color: transparent;
+    height: 4px;
+    border: none;
+}
+.min_gold_note {
+    background: #0063d5 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Cuprum",arial,Georgia,serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 3px 20px;
+    text-align: center;
+}
+.w50left {
+    float: left;
+    max-width: 50%;
+}
+.w50right {
+    float: right;
+    max-width: 50%;
+}
+
+.min-price,.max-price {
+    background: #d1d1d1 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    box-sizing: content-box;
+    height: 30px;
+    margin: 0 0 20px 15px;
+    padding: 0 10px;
+    vertical-align: top;
+    width: 90px;
+}
+.min-price-word {
+	
+}
+
+.player-area {
+width:380px;
+position:absolute;
+ background:white;
+ z-index:10000;
+}
+#clos-player-area {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#textplaer {
+    color: yellow;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.player {
+    margin: 0 0 10px;
+    width: 96%;
+    padding: 2%;
+    width: 96%;
+display: table;
+border-bottom:1px solid #fff;
+-webkit-transition: all 100ms linear;
+-moz-transition: all 100ms linear;
+-ms-transition: all 100ms linear;
+-o-transition: all 100ms linear;
+transition: all 100ms linear;
+}
+
+.player:hover {
+cursor:pointer;
+background-color:#0063D5;
+}
+
+
+.player-photo {
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.player-country {
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.player-rating {
+    color: #fff;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+.player-name {
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 15px;
+}
+.player-area .player-name,.player-area .player-rating {
+   color: #000;
+}
+
+.select-players {
+
+}
+.select-players .player-template {
+		display:none;
+		background:#F5F5F5;
+}
+	
+.select-players img.delete-button  {
+    display: inline-block;
+    float: right;
+    line-height: 40px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+
+.select-players  .leave_a_comment-p {
+    margin: 0 0 20px 10px;
+}
+.select-players  select {
+    width: 120px;
+}
+
+.delete-button:hover{
+	cursor:pointer;
+}

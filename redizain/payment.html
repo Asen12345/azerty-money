@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <div class="menu">
+    <div class="menu__title">
+      Меню
+    </div>
+    <img src="img/menu-line.png" alt="" class="menu__line">
+    <ul class="menu__links">
+      <li>
+        <a href="/" class="menu__item menu__item_active">
+          Главная
+        </a>
+      </li>
+      <li>
+        <a href="catalog.html" class="menu__item">
+          Каталог игр
+        </a>
+      </li>
+      <li>
+        <a href="faq.html" class="menu__item">
+          F.A.Q
+        </a>
+      </li>
+      <li>
+        <a href="warranty.html" class="menu__item">
+          Гарантии
+        </a>
+      </li>
+      <li>
+        <a href="seller.html" class="menu__item">
+          Поставщикам
+        </a>
+      </li>
+      <li>
+        <a href="contacts.html" class="menu__item">
+          Контакты
+        </a>
+      </li>
+    </ul>
+    <img src="img/menu-line.png" alt="" class="menu__line">
+    <div class="menu__footer">
+      <a href="#" class="menu__user">
+        Аккаунт
+      </a>
+      <a href="#" class="menu__user">
+        Вход
+      </a>
+    </div>
+  </div>
+  <button class="bar__btn btn btn__first">
+    <div class="bar__btn-before"></div>
+    Оставьте нам сообщение
+  </button>
+  <div class="chat">
+    <button class="bar__btn btn chat__btn">
+      Чат с оператором
+    </button>
+    <div class="chat__header">
+      <img src="img/chat-img.png" alt="Admin" class="chat__admin-img">
+      <div class="chat__admin">
+        <div class="admin-name">
+          Ирина
+        </div>
+        <div class="admin-text">
+          Поддержка клиентов
+        </div>
+      </div>
+    </div>
+    <div class="chat__messages">
+      <div class="chat__beg">
+        Чат начат
+      </div>
+      <div class="message">
+        <img src="img/chat-img.png" alt="Admin" class="message__img">
+        <div class="message__admin">
+          Здравствуйте! Отвечу на все вопросы по работе сайта или услугам! (Вам ответит наш свободный оператор, не
+          робот).
+        </div>
+      </div>
+      <div class="message">
+        <div class="message__user">
+          Здравствуйте! Отвечу на все вопросы по работе сайта или услугам! (Вам ответит наш свободный оператор, не
+          робот).
+        </div>
+        <img src="img/chat-img-2.png" alt="Admin" class="message__img">
+      </div>
+      <div class="new-message">
+        <textarea class="message__area" placeholder="Введите сюда сообщение"></textarea>
+        <button class="message__btn">
+          <img src="img/chat-btn.png" alt="" class="message__btn-icon">
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="catalog-wrap">
+
+    <!-- Тут начинается "Header" (повторяюшиеся элементы) -->
+    <div class="header" id="header">
+      <div class="container">
+        <div class="header-nav">
+          <a href="#" class="logo">
+            <img src="img/logo.png" alt="Logo">
+          </a>
+          <ul class="header__menu">
+            <li>
+              <a href="/" class="header__item">
+                Главная
+              </a>
+            </li>
+            <li>
+              <a href="catalog.html" class="header__item">
+                Каталог игр
+              </a>
+            </li>
+            <li>
+              <a href="faq.html" class="header__item">
+                F.A.Q
+              </a>
+            </li>
+            <li>
+              <a href="warranty.html" class="header__item">
+                Гарантии
+              </a>
+            </li>
+            <li>
+              <a href="seller.html" class="header__item">
+                Поставщикам
+              </a>
+            </li>
+            <li>
+              <a href="contacts.html" class="header__item">
+                Контакты
+              </a>
+            </li>
+          </ul>
+          <input type="text" class="header__input" placeholder="Введите названия игры">
+          <a href="#" class="header__admin header__search">
+            <img src="img/search.svg" alt="search" class="admin__logo search__logo">
+          </a>
+          <a href="admin.html" class="header__admin">
+            <img src="img/user.svg" alt="User" class="admin__logo">
+          </a>
+        </div>
+        <div class="header__bar">
+          <div class="header__hamburger">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+          </div>
+          <div class="offer__time">
+            <img src="img/icon-clock.svg" alt="Clock" class="time__icon">
+            с 11:00 до 23:00
+          </div>
+        </div>
+        <!-- Тут заканчивается "Header" (повторяюшиеся элементы) -->
+
+
+        <div class="head-of">
+          <div class="breadcrumbs">
+            <a href="#" class="breadcrumbs__home">
+              Главная
+            </a> / Оформить заказ
+          </div>
+          <h1 class="title-of">
+            Купить золото Pandawow
+          </h1>
+        </div>
+      </div>
+    </div>
+    <section class="payment" id="payment">
+      <div class="container">
+        <p class="payment__text">
+          Мы предлагаем купить голд на pandawow. <br>
+          Для этого воспользуйтесь формой заказа, ниже. <br>
+          Внимательно заполняйте необходимые поля, во избежания ошибок в игровом нике.
+          Золото будет доставлено в срок от 5 минут до 24 часов(среднее время ожидания заказа 15 минут).
+          Заказ поступит на игровую почту сразу после отправки.
+        </p>
+        <h2 class="name-of payment__name">
+          Оформить заказ
+        </h2>
+        <div class="payment__types">
+          <div class="payment__item payment__item_active" value="₽">
+            <img src="img/webmoney.png" alt="WebMoney" class="payment__icon">
+            WebMoney WMR
+          </div>
+          <div class="payment__item" value="$">
+            <img src="img/webmoney.png" alt="WebMoney" class="payment__icon">
+            WebMoney WMZ
+          </div>
+          <div class="payment__item" value="₽">
+            <img src="img/webmoney.png" alt="WebMoney" class="payment__icon">
+            WebMoney WMP
+          </div>
+          <div class="payment__item" value="€">
+            <img src="img/webmoney.png" alt="WebMoney" class="payment__icon">
+            WebMoney WME
+          </div>
+          <div class="payment__item" value="₽">
+            <img src="img/qiwi.png" alt="WebMoney" class="payment__icon">
+            QIWI (без комисии)
+          </div>
+          <div class="payment__item" value="₽">
+            <img src="img/yandex.png" alt="WebMoney" class="payment__icon">
+            Yandex (без комисии)
+          </div>
+          <div class="payment__item" value="₽">
+            <img src="img/mastercard.png" alt="Мастеркард" class="payment__icon">
+            Банковские карты (Россия СНГ)
+          </div>
+          <div class="payment__item" value="₽">
+            <img src="img/mastercard.png" alt="Мастеркард" class="payment__icon">
+            Банковские карты (EU)
+          </div>
+          <div class="payment__item" value="₽">
+            <img src="img/sim.png" alt="Сим" class="payment__icon">
+            Мегафон, МТС, Билайн, Теле 2
+          </div>
+          <div class="payment__item" value="₽">
+            <img src="img/evroeset.png" alt="Евросеть" class="payment__icon">
+            Евросеть связной
+          </div>
+        </div>
+        <div class="payment__wrap pay-line">
+          <p class="payment__desk">
+            Анотации к заказу<br><br>
+            Равным образом начало повседневной работы по формированию позиции влечет за собой процесс внедрения и
+            модернизации позиций, занимаемых участниками в отношении поставленных задач. С другой стороны консультация
+            с
+            широким активом в значительной степени обуславливает создание дальнейших направлений развития. <br><br>
+
+            Задача организации, в особенности же реализация намеченных плановых заданий представляет собой интересный
+            эксперимент проверки систем массового участия. Не следует, однако забывать, что постоянное
+            информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и
+            модернизации систем массового участия. Значимость этих проблем настолько очевидна, что рамки и место
+            обучения кадров требуют от нас анализа направлений прогрессивного развития. Задача организации, в
+            особенности же дальнейшее развитие различных форм деятельности играет важную роль в формировании
+            соответствующий условий активизации. Равным образом начало повседневной работы по формированию позиции
+            влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных
+            задач. С другой стороны консультация с широким активом в значительной степени обуславливает создание
+            дальнейших направлений развития. <br><br>
+
+            Задача организации, в особенности же реализация намеченных плановых заданий представляет собой интересный
+            эксперимент проверки систем массового участия. Не следует, однако забывать, что постоянное
+            информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения.
+          </p>
+          <form action="#" method="GET" class="payment__data js-form popupResult" id="popupResult2">
+            <div class="data__row">
+              <div class="data__name">
+                Выберите сервер<span class="required">*</span>
+              </div>
+              <div class="data__side">
+                <label for="data__server"></label>
+                <select name="data__server" id="data__server" class=" data__input">
+                  <option value="x100(5.4.8)">x100(5.4.8)</option>
+                  <option value="x100(5.3.6)">x100(5.3.6)</option>
+                  <option value="x100(5.2.4)">x100(5.2.4)</option>
+                </select>
+                <div class="data__text">
+                  Цена за 1000 золота: 0.13 P
+                </div>
+              </div>
+            </div>
+            <div class="data__row">
+              <div class="data__name">
+                Валюта<span class="required">*</span>
+              </div>
+              <div class="data__side_cur">
+                <div class="side__div">
+                  <input type="text" class="data__input data__input_cur" placeholder="200 000" required>
+                  <span class="addition-sm">Сумма<span class="required">*</span> </span>
+                  <input type="number" name="number" class="data__input data__input_cur" placeholder="260" required>
+                  <span class="currency">₽</span>
+                </div>
+                <div class="data__text data__text_yellow">
+                  Минимальная сумма заказа 50 P
+                </div>
+              </div>
+            </div>
+            <div class="data__row">
+              <div class="data__name">
+                Укажите имя персонажа<span class="required">*</span>
+              </div>
+              <input type="text" name="nick" class="data__input data__input_nic" placeholder="Никнейм" required>
+            </div>
+            <div class="data__row">
+              <div class="data__side data__side_text">
+                <input type="text" name="email" class="data__input" placeholder="E-mail" required>
+                <p class="data__text">
+                  Накопительная система скидок. <br>
+                  Для получения скидки Вам достаточно лишь указывать один и тот же email ко всем заказам. Посмотреть
+                  набранный % скидки Вы можете в личном кабинете.
+                </p>
+              </div>
+              <div class="data__side">
+                <div class="discount__row">
+                  <div class="discount__point">
+                    100 - 500
+                  </div>
+                  <div class="discount__rate">
+                    1%
+                  </div>
+                </div>
+                <div class="discount__row">
+                  <div class="discount__point">
+                    500 - 2000
+                  </div>
+                  <div class="discount__rate">
+                    2%
+                  </div>
+                </div>
+                <div class="discount__row">
+                  <div class="discount__point">
+                    2000 - 5000
+                  </div>
+                  <div class="discount__rate">
+                    3%
+                  </div>
+                </div>
+                <div class="discount__row">
+                  <div class="discount__point">
+                    5000 - 10000
+                  </div>
+                  <div class="discount__rate">
+                    4%
+                  </div>
+                </div>
+                <div class="discount__row">
+                  <div class="discount__point">
+                    10000 - 30000
+                  </div>
+                  <div class="discount__rate">
+                    5%
+                  </div>
+                </div>
+                <div class="discount__row">
+                  <div class="discount__point">
+                    VIP статус > 30000
+                  </div>
+                  <div class="discount__rate">
+                    10%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="data__row">
+              <div class="data__name">
+                Есть промокод? Укажите его здесь!
+              </div>
+              <input type="text" class="data__input data__input_nic">
+            </div>
+            <div class="data__row">
+              <div class="data__name">
+                Связь:<span class="required">*</span>
+              </div>
+              <textarea name="area" class="data__input data__input_nic data__textarea"
+                placeholder="Как с вами связаться? Укажите удобный вам способ связи (WhatsApp, Telegram, Skype, VK)"
+                required></textarea>
+            </div>
+            <div class="data__row_last">
+              <div class="data__check">
+                <input type="checkbox" name="checkbox" class="data__checkbox" required>
+                <div class="data__text">
+                  Я ознакомился с <a href="#" class="data__link">условиями соглашения</a>
+                </div>
+              </div>
+              <div class="data__total">
+                <div class="total__text">
+                  Ваша скидка: <span>0%</span>
+                </div>
+                <div class="total__text">
+                  Итого к оплате: <span>260 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn total__btn ml-auto" data-submit>
+              Купить
+            </button>
+          </form>
+        </div>
+        <div class="payment__reviews reviews">
+          <h2 class="name-of reviews-name">
+            Отзывы
+          </h2>
+          <div class="reviews__item pay-line">
+            <div class="payment-line"></div>
+            <img src="img/person-1.png" alt="Person" class="reviews__img">
+            <div class="reviews__content">
+              <div class="reviews__head">
+                <h5 class="reviews__name">
+                  Oxydrugs
+                </h5>
+                <div class="reviews__date">
+                  (27.04.2020 \ 14:36)
+                </div>
+              </div>
+              <div class="reviews__text">
+                Заказал час назад,еще не пришили,но в прожавце уверен,покупад еще 5лет назад по скайпу)
+              </div>
+              <div class="reviews__admin">
+                <img src="img/admin-icon.png" alt="admin" class="reviews__admin-img">
+                <div class="reviews__admin-side">
+                  <div class="reviews__admin-name">
+                    Администратор Azerty Money
+                  </div>
+                  <div class="reviews__admin-text">
+                    Заказал час назад,еще не пришили,но в прожавце уверен,покупад еще 5лет назад по скайпу)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__item pay-line">
+            <div class="payment-line"></div>
+            <img src="img/person-2.png" alt="Person" class="reviews__img">
+            <div class="reviews__content">
+              <div class="reviews__head">
+                <h5 class="reviews__name">
+                  Goridazz
+                </h5>
+                <div class="reviews__date">
+                  (27.04.2020 \ 14:36)
+                </div>
+              </div>
+              <div class="reviews__text">
+                А в чем прикол? Я купил голду, а не дс, я сам типо должен продавать? Почему я получил якобы
+                эквивалентную стоимость?
+              </div>
+              <div class="reviews__admin">
+                <img src="img/admin-icon.png" alt="admin" class="reviews__admin-img">
+                <div class="reviews__admin-side">
+                  <div class="reviews__admin-name">
+                    Администратор Azerty Money
+                  </div>
+                  <div class="reviews__admin-text">
+                    Добрый день. На Uwow х1 лич, золото передается дс(Вам выдали больше чем положено)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__item pay-line">
+            <div class="payment-line"></div>
+            <img src="img/person-3.png" alt="Person" class="reviews__img">
+            <div class="reviews__content">
+              <div class="reviews__head">
+                <h5 class="reviews__name">
+                  Дмитрий
+                </h5>
+                <div class="reviews__date">
+                  (27.04.2020 \ 14:36)
+                </div>
+              </div>
+              <div class="reviews__text">
+                Брал голду) оплатил, ждал правда больше часа(заказал до 11 по мск еще, был 6м в очереди) Получил по
+                почте, все четко, дали с бонусом голдов)
+              </div>
+              <div class="reviews__admin">
+                <img src="img/admin-icon.png" alt="admin" class="reviews__admin-img">
+                <div class="reviews__admin-side">
+                  <div class="reviews__admin-name">
+                    Администратор Azerty Money
+                  </div>
+                  <div class="reviews__admin-text">
+                    Здравствуйте. Ваш заказ доставлен.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="docs__text payment__text after__text">
+          Посвящая свободное время играм, задумываетесь ли вы о том, как бы в той или иной ситуации пригодилась игровая
+          валюта? Прокачка персонажа, покупка нового усовершенствованного для ожесточенного боя оружия – все это
+          занимает много времени и требует от вас максимум усилий. Отныне способ достичь желаемого результата стал в
+          разы проще. Сервис Azerty-Money создан специально для упрощения игровой жизни. Игровая валюта продается на
+          самых выгодных условиях, а список игр, для аккаунтов которых она предоставляется, - весьма обширен. Вам
+          предоставляется масса возможностей! <br><br>
+
+
+
+          На сайте вы с легкостью можете купить золото wowcircle, воспользовавшись специальной формой для оформления
+          заказа. Это идеальный способ в кратчайшие сроки прокачать персонажа, добавить ему необходимые боевые навыки,
+          защитные элементы и оружие. Не стоит тратить по десять часов на достижение цели. Проще приобрести валюту у
+          нас. К тому же, доставка Голд Wowcircle занимает минимум времени – от 5 до 15 минут, реже – до 24-х часов, но
+          это в крайне редких случаях. Остается практически стопроцентная вероятность того, что вы получите заказанную
+          валюту в первые 15 минут.<br><br>
+
+
+
+          К преимуществам покупки валюты через наш сервис также можно отнести низкую цену. Она, как нетронутая
+          постоянная, остается таковой не зависимо ни от чего. В очередной раз посещая ресурс, дабы пополнить запасы
+          золота, вы не столкнетесь с резким повышением цены. Дешевый голд вов циркл всегда будет в общем доступе по
+          оптимальным ценам. Вы будете приятно удивлены, когда более детально ознакомитесь со стоимостью золота и
+          суммой, доступной для минимального заказа. Она не оставит равнодушным даже бывалого геймера, повидавшего
+          миллионы подобных ресурсов.<br><br>
+
+
+
+          Сервис богат не только выгодными предложениями и накопительными акциями для покупки голды, но и предоставляет
+          возможность продать её. Удобная и простая в заполнении форма поможет вам осуществить любую продажу: будь то
+          игровые ценности или продажа золота на wowcircle. Достаточно выбрать желаемую игру из списка или ввести ее
+          вручную, указать сервер, количество продаваемых ресурсов и цену, за которую вы готовы расстаться с золотом – и
+          вуаля. Выгодная сделка успешно проведена.<br><br>
+
+
+
+          Эти и многие другие перечисленные здесь преимущества не оставят сомнений при выборе сервиса для покупки и
+          продажи голды. Многочисленные отзывы, многолетняя репутация и железобетонные гарантии красочно подтверждают
+          безопасность, удобство и скорость работы сайта.
+        </p>
+        <div class="contacts-side payment__form">
+          <h2 class="name-of payment__form_title">
+            Оставить отзыв
+          </h2>
+          <form action="#" class="brown-form">
+            <input type="text" class="brown-input" placeholder="Ваше имя" required>
+            <input type="mail" class="brown-input" placeholder="Ваша эл. почта" required>
+            <textarea name="text" class="brown-input brown-textarea" placeholder="Оставьте свой отзыв здесь"
+              required></textarea>
+            <div class="form__footer contacts-form__footer">
+              <button class="btn form__btn contacts-form__btn">
+                Оставить отзыв
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__wrap">
+        <img src="img/logo-big.png" alt="Logo" class="footer__logo">
+        <ul class="header__menu footer__menu">
+          <li>
+            <a href="/" class="header__item">
+              Главная
+            </a>
+          </li>
+          <li>
+            <a href="catalog.html" class="header__item">
+              Каталог игр
+            </a>
+          </li>
+          <li>
+            <a href="faq.html" class="header__item">
+              F.A.Q
+            </a>
+          </li>
+          <li>
+            <a href="warranty.html" class="header__item">
+              Гарантии
+            </a>
+          </li>
+          <li>
+            <a href="seller.html" class="header__item">
+              Поставщикам
+            </a>
+          </li>
+          <li>
+            <a href="contacts.html" class="header__item">
+              Контакты
+            </a>
+          </li>
+        </ul>
+        <div class="footer__discounts">
+          <div class="icons__info discount__info"
+            data-title="Скидка накопительная и рассчитывается по суммарному количеству потраченных Вами денег. Указывайте один и тот же e-mail. Если Вы хотите получать максимальную скидку 10%">
+            <img src="img/info-icon.svg" alt="" class="discount__img">
+          </div>
+          <div class="discount__row">
+            <h4 class="discount__title">
+              Сумма заказов, руб.
+            </h4>
+            <div class="discount__rate">
+              Скидка
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              100 - 500
+            </div>
+            <div class="discount__rate">
+              1%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              500 - 2000
+            </div>
+            <div class="discount__rate">
+              2%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              2000 - 5000
+            </div>
+            <div class="discount__rate">
+              3%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              5000 - 10000
+            </div>
+            <div class="discount__rate">
+              4%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              10000 - 30000
+            </div>
+            <div class="discount__rate">
+              5%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              VIP статус > 30000
+            </div>
+            <div class="discount__rate">
+              10%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+        </div>
+        <div class="footer__call">
+          <button class="btn secondary__btn footer__btn">
+            Связатся с нами
+          </button>
+          <div class="offer__time discount__time">
+            <img src="img/icon-clock.svg" alt="Clock" class="time__icon">
+            с 11:00 до 23:00
+          </div>
+        </div>
+      </div>
+      <div class="footer__credits">
+        2020 © Все права защищены
+      </div>
+    </div>
+  </footer>
+  <div class="modal">
+    <div class="modal-dialog main-modal">
+      <button class="modal-close main-modal__close"></button>
+      <div class="modal-head lined">
+        <h2 class="modal__title">
+          Напиши нам
+        </h2>
+        <h2 class="modal__title title_second">
+          Отправь заявку менеджеру
+        </h2>
+      </div>
+      <div class="modal-body">
+        <div class="modal__links">
+          <a href="#" class="modal__btn btn-skype">
+            <img src="img/skype-icon.png" alt="Skype" class="modal__icon">
+            Skype
+          </a>
+          <a href="#" class="modal__btn btn-discord">
+            <img src="img/discord-icon.png" alt="discord" class="modal__icon">
+            Discord
+          </a>
+          <a href="#" class="modal__btn btn-whatsapp">
+            <img src="img/whatsapp-icon.png" alt="whatsapp" class="modal__icon">
+            Whatsapp
+          </a>
+          <a href="#" class="modal__btn btn-telegram">
+            <img src="img/telegram-icon.png" alt="telegram" class="modal__icon">
+            Telegram
+          </a>
+          <a href="#" class="modal__btn btn-email">
+            <img src="img/email-icon.png" alt="email" class="modal__icon">
+            Email
+          </a>
+        </div>
+        <h2 class="modal__title title_small">
+          Отправь заявку менеджеру
+        </h2>
+        <form action="#" class="js-form popupResult" id="popupResult">
+          <label for="#modal_input_select"></label>
+          <select name="modal_input_select" id="modal_input_select" class="brown-input modal-input">
+            <option value="Skype">Напишите мне в Skype</option>
+            <option value="Discord">Напишите мне в Discord</option>
+            <option value="Whatsapp">Напишите мне в Whatsapp</option>
+            <option value="Telegram">Напишите мне в Telegram</option>
+            <option value="Email">Напишите мне в Email</option>
+          </select>
+          <label for="modal__input_link" class="changeable-label">Ваш Login Skype </label>
+          <input type="name" name="login" class="brown-input modal-input" id="modal__input_link" required>
+
+          <label for="modal__input_text">Что вас интересует</label>
+          <textarea name="textarea" type="text" class="brown-input modal-input" id="modal_input_text"
+            required></textarea>
+          <button type="submit" class="btn button form__btn contacts-form__btn form__footer contacts-form__footer"
+            data-submit>
+            Отправить
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript"
+    src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

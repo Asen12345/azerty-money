@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azerty</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <div class="menu">
+    <div class="menu__title">
+      Меню
+    </div>
+    <img src="img/menu-line.png" alt="" class="menu__line">
+    <ul class="menu__links">
+      <li>
+        <a href="/" class="menu__item menu__item_active">
+          Главная
+        </a>
+      </li>
+      <li>
+        <a href="catalog.html" class="menu__item">
+          Каталог игр
+        </a>
+      </li>
+      <li>
+        <a href="faq.html" class="menu__item">
+          F.A.Q
+        </a>
+      </li>
+      <li>
+        <a href="warranty.html" class="menu__item">
+          Гарантии
+        </a>
+      </li>
+      <li>
+        <a href="seller.html" class="menu__item">
+          Поставщикам
+        </a>
+      </li>
+      <li>
+        <a href="contacts.html" class="menu__item">
+          Контакты
+        </a>
+      </li>
+    </ul>
+    <img src="img/menu-line.png" alt="" class="menu__line">
+    <div class="menu__footer">
+      <a href="#" class="menu__user">
+        Аккаунт
+      </a>
+      <a href="#" class="menu__user">
+        Вход
+      </a>
+    </div>
+  </div>
+  <button class="bar__btn btn btn__first">
+    <div class="bar__btn-before"></div>
+    Оставьте нам сообщение
+  </button>
+  <div class="chat">
+    <button class="bar__btn btn chat__btn">
+      Чат с оператором
+    </button>
+    <div class="chat__header">
+      <img src="img/chat-img.png" alt="Admin" class="chat__admin-img">
+      <div class="chat__admin">
+        <div class="admin-name">
+          Ирина
+        </div>
+        <div class="admin-text">
+          Поддержка клиентов
+        </div>
+      </div>
+    </div>
+    <div class="chat__messages">
+      <div class="chat__beg">
+        Чат начат
+      </div>
+      <div class="message">
+        <img src="img/chat-img.png" alt="Admin" class="message__img">
+        <div class="message__admin">
+          Здравствуйте! Отвечу на все вопросы по работе сайта или услугам! (Вам ответит наш свободный оператор, не
+          робот).
+        </div>
+      </div>
+      <div class="message">
+        <div class="message__user">
+          Здравствуйте! Отвечу на все вопросы по работе сайта или услугам! (Вам ответит наш свободный оператор, не
+          робот).
+        </div>
+        <img src="img/chat-img-2.png" alt="Admin" class="message__img">
+      </div>
+      <div class="new-message">
+        <textarea class="message__area" placeholder="Введите сюда сообщение"></textarea>
+        <button class="message__btn">
+          <img src="img/chat-btn.png" alt="" class="message__btn-icon">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Этот "wrappar" разная в каждой странице -->
+  <div class="wrapper">
+
+    <!-- Тут начинается "Header" (повторяюшиеся элементы) -->
+    <div class="header" id="header">
+      <div class="container">
+        <div class="header-nav">
+          <a href="#" class="logo">
+            <img src="img/logo.png" alt="Logo">
+          </a>
+          <ul class="header__menu">
+            <li>
+              <a href="/" class="header__item">
+                Главная
+              </a>
+            </li>
+            <li>
+              <a href="catalog.html" class="header__item">
+                Каталог игр
+              </a>
+            </li>
+            <li>
+              <a href="faq.html" class="header__item">
+                F.A.Q
+              </a>
+            </li>
+            <li>
+              <a href="warranty.html" class="header__item">
+                Гарантии
+              </a>
+            </li>
+            <li>
+              <a href="seller.html" class="header__item">
+                Поставщикам
+              </a>
+            </li>
+            <li>
+              <a href="contacts.html" class="header__item">
+                Контакты
+              </a>
+            </li>
+          </ul>
+          <input type="text" class="header__input" placeholder="Введите названия игры">
+          <a href="#" class="header__admin header__search">
+            <img src="img/search.svg" alt="search" class="admin__logo search__logo">
+          </a>
+          <a href="admin.html" class="header__admin">
+            <img src="img/user.svg" alt="User" class="admin__logo">
+          </a>
+        </div>
+        <div class="header__bar">
+          <div class="header__hamburger">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+          </div>
+          <div class="offer__time">
+            <img src="img/icon-clock.svg" alt="Clock" class="time__icon">
+            с 11:00 до 23:00
+          </div>
+        </div>
+        <!-- Тут заканчивается "Header" (повторяюшиеся элементы) -->
+
+
+        <div class="header__offer">
+          <div class="offer__part">
+            <h1 class="offer__title">
+              Игровая валюта<br>
+              <span>по самым лучшим ценам</span>
+            </h1>
+            <p class="offer__text">
+              Мы ценим каждого нашего клиента и за последние три года ни один из них не ушел от нас недовольным.
+              Подтверждением тому
+              служат положительные отзывы наших клиентов.
+            </p>
+            <a href="#" class="btn offer__btn">
+              Связатся с нами
+            </a>
+          </div>
+          <div class="offer__part">
+            <div class="offer__cards">
+              <div class="offer__card">
+                <img src="img/offer-icon-1.png" alt="Star" class="offer__img">
+                <h4 class="offer__pros">
+                  Более 9 лет на рынке
+                </h4>
+                <p class="offer__pros-text">
+                  Более 10 000 удачных сделок
+                </p>
+              </div>
+              <div class="offer__card">
+                <img src="img/offer-icon-2.png" alt="Star" class="offer__img">
+                <h4 class="offer__pros">
+                  Лучшие цены на рынке
+                </h4>
+                <p class="offer__pros-text">
+                  Доступные цены для наших клиентов
+                </p>
+              </div>
+              <div class="offer__card">
+                <img src="img/offer-icon-3.png" alt="Star" class="offer__img">
+                <h4 class="offer__pros">
+                  Партнерская программа
+                </h4>
+                <p class="offer__pros-text">
+                  Всегда готовы сотрудничать с вами
+                </p>
+              </div>
+              <div class="offer__card">
+                <img src="img/offer-icon-4.png" alt="Star" class="offer__img">
+                <h4 class="offer__pros">
+                  Большой выбор
+                </h4>
+                <p class="offer__pros-text">
+                  Игровая валюта для большого количества игр
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#games" class="header__mouse">
+          <img src="img/mouse.svg" alt="" class="mouse">
+        </a>
+      </div>
+    </div>
+    <section class="games" id="games">
+      <div class="container">
+        <h2 class="games__title">
+          Популярные игры
+        </h2>
+        <div class="games__wrap">
+          <a href="game.html" class="games__card">
+            <img src="img/cards/1.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/2.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/3.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/4.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/5.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/6.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/7.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/8.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/9.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/10.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/11.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/12.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/13.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/14.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/15.png" alt="Game" class="games__img">
+          </a>
+          <a href="game.html" class="games__card">
+            <img src="img/cards/16.png" alt="Game" class="games__img">
+          </a>
+        </div>
+        <button class="btn secondary__btn games__btn">
+          Больше игр
+        </button>
+    </section>
+    <section class="comments" id="comments">
+      <div class="container">
+        <h2 class="comments__title">
+          Наши отзывы
+        </h2>
+        <div class="comments__slider">
+          <div>
+            <div class="comments__item">
+              <div class="comments__head">
+                <img src="img/igor.png" alt="Person" class="comments__img">
+                <div class="comments__info">
+                  <div class="comments__date date">
+                    23.04.2020 \ 13:58
+                  </div>
+                  <div class="comments__person">
+                    Игорь Минский
+                  </div>
+                  <div class="comments__stars">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-grey.png" alt="" class="stars__gold">
+                  </div>
+                  <img src="img/comment-line.png" alt="" class="comments__line">
+                </div>
+              </div>
+              <p class="comments__text">
+                Равным образом реализация намеченных плановых заданий способствует подготовки и реализации новых
+                предложений.
+                Товарищи! дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и
+                модернизации
+                соответствующий условий активизации. Значимость этих проблем настолько очевидна, что сложившаяся
+                структура
+                организации представляет собой
+                интересный эксперимент проверки дальнейших направлений.
+              </p>
+              <a href="/reviews.html" class="news__btn secondary__btn btn">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="comments__item">
+              <div class="comments__head">
+                <img src="img/igor.png" alt="Person" class="comments__img">
+                <div class="comments__info">
+                  <div class="comments__date">
+                    23.04.2020 \ 13:58
+                  </div>
+                  <div class="comments__person">
+                    Игорь Минский
+                  </div>
+                  <div class="comments__stars">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-grey.png" alt="" class="stars__gold">
+                  </div>
+                  <img src="img/comment-line.png" alt="" class="comments__line">
+                </div>
+              </div>
+              <p class="comments__text">
+                Равным образом реализация намеченных плановых заданий способствует подготовки и реализации новых
+                предложений.
+                Товарищи! дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и
+                модернизации
+                соответствующий условий активизации. Значимость этих проблем настолько очевидна, что сложившаяся
+                структура
+                организации представляет собой
+                интересный эксперимент проверки дальнейших направлений.
+              </p>
+              <a href="/reviews.html" class="news__btn secondary__btn btn">
+                Подробнее
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="comments__item">
+              <div class="comments__head">
+                <img src="img/igor.png" alt="Person" class="comments__img">
+                <div class="comments__info">
+                  <div class="comments__date">
+                    23.04.2020 \ 13:58
+                  </div>
+                  <div class="comments__person">
+                    Игорь Минский
+                  </div>
+                  <div class="comments__stars">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-gold.png" alt="" class="stars__gold">
+                    <img src="img/Star-grey.png" alt="" class="stars__gold">
+                  </div>
+                  <img src="img/comment-line.png" alt="" class="comments__line">
+                </div>
+              </div>
+              <p class="comments__text">
+                Равным образом реализация намеченных плановых заданий способствует подготовки и реализации новых
+                предложений.
+                Товарищи! дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и
+                модернизации
+                соответствующий условий активизации. Значимость этих проблем настолько очевидна, что сложившаяся
+                структура
+                организации представляет собой
+                интересный эксперимент проверки дальнейших направлений.
+              </p>
+              <a href="/reviews.html" class="news__btn secondary__btn btn">
+                Подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="news-about">
+      <section class="news" id="news">
+        <div class="container">
+          <h2 class="comments__title">
+            Новости
+          </h2>
+          <div class="news__slider comments__slider">
+            <div>
+              <div class="news__item comments__item">
+                <div class="news__head">
+                  <h3 class="news__category">
+                    Royal Quest
+                  </h3>
+                  <div class="news__date date">
+                    11.02.2018
+                  </div>
+                </div>
+                <div class="news__body">
+                  <img src="img/royal-icon.png" alt="Royal" class="news__img">
+                  <div class="news__info">
+                    <h4 class="news__title">
+                      Команда Royal Quest раздает промо коды ко дню святого валентина.
+                    </h4>
+                    <img src="img/news-line.png" alt="" class="news__line">
+                    <p class="news__text">
+                      Уважаемые игроки! <br><br>
+
+                      6 августа на всех серверах русскоязычной версии игры Royal Quest прошли технические работы, во
+                      время
+                      которых была обновлена версия клиента. Загрузить ее можно через Игровой центр...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="news__item comments__item">
+                <div class="news__head">
+                  <h3 class="news__category">
+                    ArcheAge
+                  </h3>
+                  <div class="news__date date">
+                    11.02.2018
+                  </div>
+                </div>
+                <div class="news__body">
+                  <img src="img/archer-icon.png" alt="Royal" class="news__img">
+                  <div class="news__info">
+                    <h4 class="news__title">
+                      Новая версия клиента в ArcheAge
+                    </h4>
+                    <img src="img/news-line.png" alt="" class="news__line">
+                    <p class="news__text">
+                      Уважаемые игроки! <br><br>
+
+                      6 августа на всех серверах русскоязычной версии игры ArcheAge прошли технические работы, во время
+                      которых была обновлена версия клиента. Загрузить ее можно через Игровой центр...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="news__item comments__item">
+                <div class="news__head">
+                  <h3 class="news__category">
+                    Royal Quest
+                  </h3>
+                  <div class="news__date date">
+                    11.02.2018
+                  </div>
+                </div>
+                <div class="news__body">
+                  <img src="img/royal-icon.png" alt="Royal" class="news__img">
+                  <div class="news__info">
+                    <h4 class="news__title">
+                      Команда Royal Quest раздает промо коды ко дню святого валентина.
+                    </h4>
+                    <img src="img/news-line.png" alt="" class="news__line">
+                    <p class="news__text">
+                      Уважаемые игроки! <br><br>
+
+                      6 августа на всех серверах русскоязычной версии игры Royal Quest прошли технические работы, во
+                      время
+                      которых была обновлена версия клиента. Загрузить ее можно через Игровой центр...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title">
+            О Azerty-money.ru
+          </h2>
+          <img src="img/about-line.png" alt="" class="about__line">
+          <p class="about__text">
+            В 2011 году появилась группа в социальной сети ВКонтакте под названием Azerty Money, которая в те времена
+            являлась
+            одним из немногих сервисов в «Рунете», имеющих автоматизированные системы, способные проводить торговые
+            операции
+            с
+            такими внутриигровыми предметами как игровая валюта, а также помогающие в развитии персонажей. Именно
+            благодаря
+            интернет-ресурсам подобным нашему, на рынке игровой валюты появилась накопительная скидка. К примеру, у нас
+            при
+            сумме заказов от ста до пятисот рублей скидка составляет один процент. Когда сумма превысит десять тысяч
+            рублей,
+            пользователь получит максимальную скидку в размере пяти процентов (не забывайте указывать одну и ту же
+            электронную
+            почту, чтобы получить бонус). <br><br>
+
+            В начале в группе Azerty Money осуществляли обслуживание лишь одного сервера - wowcircle.com, к тому же не
+            официального. Пользователи могли только приобрести голд для этой игровой платформы. Однако с течением
+            времени
+            у
+            нас появился собственный интернет-портал Azerty-money.ru, на котором вы собственно сейчас и находитесь, а
+            список
+            услуг предоставляемых нашей группой значительно расширился и теперь он поистине огромен. На сегодняшний день
+            вы
+            можете получить следующие виды услуг на сайте и в группе: приобрести игровую валюту практически для любой
+            современной MMORPG, включая золото и адену; заказать прокачку персонажа на официальных серверах популярных
+            онлайн-игр; купить аккаунты с топовыми героями на неофициальных площадках; приобрести карты оплаты и ключи,
+            а
+            также игры для магазина Steam.<br><br>
+
+            Мы ценим каждого нашего клиента и за последние три года ни один из них не ушел от нас недовольным.
+            Подтверждением
+            тому служат положительные отзывы, с которыми вы можете ознакомиться в любой момент в соответствующем разделе
+            сайта. Главными достоинствами сервиса Azerty-money.ru всегда являлись следующие преимущества: исполнение
+            заказов
+            в
+            самые короткие сроки (доставка осуществляется за пять-десять минут, так как кинары, адена и прочие виды
+            игровых
+            валют закупаются нами заранее), дружелюбная и оперативная служба поддержки и сравнительно низкие
+            цены.<br><br>
+
+            Сейчас данный интернет-портал занимается обслуживанием нескольких многопользовательских игр, а именно: EVE
+            Online,
+            для которой можно приобрести иски, ArcheAge, World of Warcraft, Aion, Diablo III, Rift, Lineage II, Dota 2,
+            The
+            Elder Scrolls Online и World of Tanks..
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__wrap">
+        <img src="img/logo-big.png" alt="Logo" class="footer__logo">
+        <ul class="header__menu footer__menu">
+          <li>
+            <a href="/" class="header__item">
+              Главная
+            </a>
+          </li>
+          <li>
+            <a href="catalog.html" class="header__item">
+              Каталог игр
+            </a>
+          </li>
+          <li>
+            <a href="faq.html" class="header__item">
+              F.A.Q
+            </a>
+          </li>
+          <li>
+            <a href="warranty.html" class="header__item">
+              Гарантии
+            </a>
+          </li>
+          <li>
+            <a href="seller.html" class="header__item">
+              Поставщикам
+            </a>
+          </li>
+          <li>
+            <a href="contacts.html" class="header__item">
+              Контакты
+            </a>
+          </li>
+        </ul>
+        <div class="footer__discounts">
+          <div class="icons__info discount__info"
+            data-title="Скидка накопительная и рассчитывается по суммарному количеству потраченных Вами денег. Указывайте один и тот же e-mail. Если Вы хотите получать максимальную скидку 10%">
+            <img src="img/info-icon.svg" alt="" class="discount__img">
+          </div>
+          <div class="discount__row">
+            <h4 class="discount__title">
+              Сумма заказов, руб.
+            </h4>
+            <div class="discount__rate">
+              Скидка
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              100 - 500
+            </div>
+            <div class="discount__rate">
+              1%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              500 - 2000
+            </div>
+            <div class="discount__rate">
+              2%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              2000 - 5000
+            </div>
+            <div class="discount__rate">
+              3%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              5000 - 10000
+            </div>
+            <div class="discount__rate">
+              4%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              10000 - 30000
+            </div>
+            <div class="discount__rate">
+              5%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+          <div class="discount__row">
+            <div class="discount__point">
+              VIP статус > 30000
+            </div>
+            <div class="discount__rate">
+              10%
+            </div>
+            <div class="disc__row-after"></div>
+          </div>
+        </div>
+        <div class="footer__call">
+          <button class="btn secondary__btn footer__btn">
+            Связатся с нами
+          </button>
+          <div class="offer__time discount__time">
+            <img src="img/icon-clock.svg" alt="Clock" class="time__icon">
+            с 11:00 до 23:00
+          </div>
+        </div>
+      </div>
+      <div class="footer__credits">
+        2020 © Все права защищены
+      </div>
+    </div>
+  </footer>
+  <div class="modal">
+    <div class="modal-dialog main-modal">
+      <button class="modal-close main-modal__close"></button>
+      <div class="modal-head lined">
+        <h2 class="modal__title">
+          Напиши нам
+        </h2>
+        <h2 class="modal__title title_second">
+          Отправь заявку менеджеру
+        </h2>
+      </div>
+      <div class="modal-body">
+        <div class="modal__links">
+          <a href="#" class="modal__btn btn-skype">
+            <img src="img/skype-icon.png" alt="Skype" class="modal__icon">
+            Skype
+          </a>
+          <a href="#" class="modal__btn btn-discord">
+            <img src="img/discord-icon.png" alt="discord" class="modal__icon">
+            Discord
+          </a>
+          <a href="#" class="modal__btn btn-whatsapp">
+            <img src="img/whatsapp-icon.png" alt="whatsapp" class="modal__icon">
+            Whatsapp
+          </a>
+          <a href="#" class="modal__btn btn-telegram">
+            <img src="img/telegram-icon.png" alt="telegram" class="modal__icon">
+            Telegram
+          </a>
+          <a href="#" class="modal__btn btn-email">
+            <img src="img/email-icon.png" alt="email" class="modal__icon">
+            Email
+          </a>
+        </div>
+        <h2 class="modal__title title_small">
+          Отправь заявку менеджеру
+        </h2>
+        <form action="#" class="js-form" id="popupResult">
+          <label for="#modal_input_select"></label>
+          <select name="smodal_input_select" id="modal_input_select" class="brown-input modal-input">
+            <option value="Skype">Напишите мне в Skype</option>
+            <option value="Discord">Напишите мне в Discord</option>
+            <option value="Whatsapp">Напишите мне в Whatsapp</option>
+            <option value="Telegram">Напишите мне в Telegram</option>
+            <option value="Email">Напишите мне в Email</option>
+          </select>
+          <label for="modal__input_link" class="changeable-label">Ваш Login Skype </label>
+          <input type="name" class="brown-input modal-input" id="modal__input_link" required>
+
+          <label for="modal__input_text">Что вас интересует</label>
+          <textarea name="text" type="text" class="brown-input modal-input" id="modal_input_text" required></textarea>
+          <button type="submit" class="btn button form__btn contacts-form__btn form__footer contacts-form__footer"
+            data-submit>
+            Отправить
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript"
+    src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
